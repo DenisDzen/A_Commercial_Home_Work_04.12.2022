@@ -68,9 +68,10 @@ button:focus  {
 
 .line {
     margin: 0px auto;
-    width: 1817px;
+    width: 95%;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-x: hidden;
 }
 
 /*HEADER DISCRIPTION*/
@@ -146,12 +147,15 @@ button:focus  {
 
 /*BLOCK ABOUT*/
 
+/*Our Services*/
+
 .our-studio-title {
     font-family: 'Gotham Pro';
     font-size: 40px;
     line-height: 66px;
     color: #333333;
     margin-top: 135px;
+    
 }
 
 .our-studio-discr {
@@ -160,6 +164,7 @@ button:focus  {
     line-height: 34px;
     color: #333333;
     margin: 15px 0 97px 0;
+    
 }
 
 .our-studio-wraper-grid {
@@ -169,6 +174,7 @@ button:focus  {
     grid-template-rows: repeat(2, 292px);
     column-gap: 35px;
     row-gap: 34px;
+    
 }
 
 .our-studio-main-grid {
@@ -176,6 +182,7 @@ button:focus  {
     border: 2px solid #FED233;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
+    
 }
 
 .our-studio-img-Group1 {
@@ -196,6 +203,7 @@ button:focus  {
 
 .our-studio-img-Group5 {
     margin: 45px 134px 18px 134px;
+    
 }
 
 .our-studio-img-Group6 {
@@ -210,11 +218,13 @@ button:focus  {
     letter-spacing: 0.01em;
     color: #4F4F4F;
     margin-bottom: 35px;
+    
 }
 
 .our-studio-bottom {
     display: flex;
     align-items: center;
+    
 }
 
 .our-studio-line {
@@ -222,6 +232,7 @@ button:focus  {
     height: 0px;
     border: 1px solid #E0E0E0;
     margin: 0 auto 20px auto;
+    
 }
 
 .our-studio-paragraph {
@@ -231,8 +242,84 @@ button:focus  {
     letter-spacing: 0.01em;
     color: #BDBDBD;
     margin: 0 187px 0 22px;
+    
 }
 
 .our-studio-icon {
     display: block;
+}
+
+/*About studio*/
+
+.about-studio-wraper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 347px);
+    grid-template-rows: 115px;
+    column-gap: 35px;
+    margin-bottom: 108px;
+    
+}
+
+
+.about-studio-h2 {
+    font-family: 'Gotham Pro';
+    font-size: 40px;
+    color: #333333;
+    margin-bottom: 15px;
+    
+}
+
+.about-studio-paragraph {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    width: 820px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 59px;
+    
+}
+
+.about-studio-header {
+    font-family: 'Gotham Pro';
+    font-size: 32px;
+    color: #FED233;
+    margin-bottom: 10px;
+    
+}
+
+.about-studio-line {
+    width: 320px;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 5px;
+    
+}
+
+.about-studio-subheader {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    line-height: 34px;
+    color: #828282;
+    
+}
+
+/*FEEDBACK*/
+
+.feedback {
+    background-image: url(../img/Rectangle.jpg);
+    height: 607px;
+    margin-bottom: 118px;
+}
+
+.feedback-h2 {
+    font-family: 'Gotham Pro';
+    padding: 110px 0 44px 0;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.feedback-agreement {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
