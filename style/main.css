@@ -143,3 +143,96 @@ button:focus  {
     display: block;
     margin: 183px auto 82px auto;
 }
+
+/*BLOCK ABOUT*/
+
+.our-studio-title {
+    font-family: 'Gotham Pro';
+    font-size: 40px;
+    line-height: 66px;
+    color: #333333;
+    margin-top: 135px;
+}
+
+.our-studio-discr {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+    margin: 15px 0 97px 0;
+}
+
+.our-studio-wraper-grid {
+    display: grid;
+    margin-bottom: 233px;
+    grid-template-columns: repeat(3, 347px);
+    grid-template-rows: repeat(2, 292px);
+    column-gap: 35px;
+    row-gap: 34px;
+}
+
+.our-studio-main-grid {
+    background: #FFFFFF;
+    border: 2px solid #FED233;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.our-studio-img-Group1 {
+    margin: 45px 134px 40px 134px;
+}
+
+.our-studio-img-Group2 {
+    margin: 45px 134px 26px 134px;
+}
+
+.our-studio-img-Group3 {
+    margin: 45px 134px 28px 134px;
+}
+
+.our-studio-img-Group4 {
+    margin: 45px 134px 21px 134px;
+}
+
+.our-studio-img-Group5 {
+    margin: 45px 134px 18px 134px;
+}
+
+.our-studio-img-Group6 {
+    margin: 45px 134px 23px 134px;
+}
+
+.our-studio-h2 {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4F4F4F;
+    margin-bottom: 35px;
+}
+
+.our-studio-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.our-studio-line {
+    width: 306px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+    margin: 0 auto 20px auto;
+}
+
+.our-studio-paragraph {
+    display: block;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #BDBDBD;
+    margin: 0 187px 0 22px;
+}
+
+.our-studio-icon {
+    display: block;
+}
