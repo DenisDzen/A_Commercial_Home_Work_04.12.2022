@@ -317,9 +317,64 @@ button:focus  {
     color: #FFFFFF;
 }
 
-.feedback-agreement {
+.textInput {
+    display: block;
+    padding: 15px;
+    width: 460px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    outline: none;
+    margin-bottom: 21px;
+}
+
+.telInput {
+    display: block;
+    padding: 15px;
+    width: 460px; 
+    background: #FFFFFF;
+    border-radius: 7px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.agree {
     font-family: 'Gotham Pro';
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    margin-left: 14px;
+}
+
+.btn-contact {
+    display: block;
+    text-decoration: none;
+    height: 60px;
+    width: 266px;
+    background: #FED233;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    color: #333333;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    transition: transform 0.15s;
+    text-align: center;
+    padding: 22px 0 0 21px;
+    margin-top: 55px;
+}
+
+
+.tehnologic-title {
+    font-family: 'Gotham Pro';
+    font-size: 40px;
+    line-height: 66px;
+    color: #333333;
+}
+
+.tehnologic-discr {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 87px;
 }
