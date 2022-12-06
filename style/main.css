@@ -1,0 +1,134 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&display=swap');');
+@import url(./reset.css);
+
+/*  font-family: 'Montserrat', sans-serif;   */
+
+
+
+body {
+    font-family: 'Gotham Pro', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0 26px 0;
+    
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Gotham Pro';
+    font-size: 24px;
+    line-height: 39px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 900;
+}
+
+.header-nav span {
+    color: #FED233;
+    font-family: 'Gotham Pro';
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 85px;
+}
+
+.nav-list a {
+    color: #fff;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.nav-list a:hover {
+    color: #FED233;
+}
+
+.header-line {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: 1817px;
+    margin: 0 auto;
+}
+ 
+
+/*HEADER-ROW*/
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 267px;
+}
+
+.header-title {
+    font-size: 40px;
+    line-height: 66px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.header-title-sub-line {
+    border: 2px solid #FED233;
+    max-width: 133px;
+    margin-bottom: 25px;
+}
+
+.header-descr {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 533px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.header-row-logo {
+    text-align: right;
+    padding-top: 35px;
+}
+
+.pro-logo {
+    padding-bottom: 32px;
+}
+
+/*button*/
+
+.btn {
+    max-width: 266px;
+    height: 59px;
+    background-color: #FED233;
+    border-radius: 7px;
+    background-image: url('../icons/right-arrow-6405.svg');
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 50%;
+}
+
+.btn-title {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    padding: 21px 0 0 15px;
+}
