@@ -18,8 +18,7 @@ body {
 .header {
     background-image: url(../img/Rectangle.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
-    
+    background-size: 100vw 1000px;
 }
 
 .header-nav {
@@ -67,6 +66,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     max-width: 1817px;
     margin: 0 auto;
+}
+
+.header-bottom-mouse {
+    padding-bottom: 83px;
 }
  
 
@@ -122,6 +125,7 @@ body {
     background-size: 10px 10px;
     background-repeat: no-repeat;
     background-position: right 5% bottom 50%;
+    margin-bottom: 183px;
 }
 
 .btn-title {
@@ -132,3 +136,109 @@ body {
     color: #333333;
     padding: 21px 0 0 15px;
 }
+
+.btn:hover {
+    background-color: #ffbb3d;
+}
+
+.header-bottom-mouse {
+    display: block;
+    margin: 0 auto;
+}
+
+/*services*/
+
+.services {
+    background: #E5E5E5;
+}
+
+.services-main {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.services-main:first-child {
+    border: 2px solid #FED233;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.services-title {
+    font-size: 40px;
+    line-height: 66px;
+    color: #333333;
+    font-weight: 700;
+    padding-top: 134px;
+}
+
+.services-descr {
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+    padding-top: 14px;
+}
+
+
+/*CONTAINER GRID*/
+
+
+.services-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 347px));
+    grid-template-rows: repeat(2, minmax(200px, 292px));
+    column-gap: 35px;
+    row-gap: 35px;
+    grid-auto-rows: 292px;
+}
+
+.services-img {
+    display: block;
+    margin: 45px auto 35px;
+}
+
+.Group2 {
+    margin: 45px auto 24px;
+}
+
+.Group3 {
+    margin: 45px auto 26px;
+}
+
+.Group4 {
+    margin: 45px auto 26px;
+}
+
+.Group5 {
+    margin: 45px auto 24px;
+}
+
+.Group6 {
+    margin: 45px auto 26px;
+}
+
+.services-title-grid {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.services-line {
+    max-width: 306px;
+    border: 1px solid #E0E0E0;
+    margin: 30px auto 15px;
+}
+
+.services-show-more {
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #BDBDBD;
+    background-image: url('../icons/Vector\(4\).png');
+    background-size: 6px 10px;
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 50%;
+}
+
