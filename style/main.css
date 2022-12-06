@@ -150,11 +150,13 @@ body {
 
 .services {
     background: #E5E5E5;
+    padding-bottom: 135px;
 }
 
 .services-main {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
+    background: #FFFFFF;
 }
 
 .services-main:first-child {
@@ -175,7 +177,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #333333;
-    padding-top: 14px;
+    padding: 14px 0 97px 0;
 }
 
 
@@ -205,15 +207,15 @@ body {
 }
 
 .Group4 {
-    margin: 45px auto 26px;
+    margin: 45px auto 20px;
 }
 
 .Group5 {
-    margin: 45px auto 24px;
+    margin: 45px auto 17px;
 }
 
 .Group6 {
-    margin: 45px auto 26px;
+    margin: 45px auto 21px;
 }
 
 .services-title-grid {
@@ -241,4 +243,122 @@ body {
     background-repeat: no-repeat;
     background-position: right 5% bottom 50%;
 }
+
+/*about*/
+
+.about {
+    background-color: #fff;
+}
+
+.about-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 320px));
+    grid-template-rows: repeat(1, minmax(80px, 115px));
+    column-gap: 74px;
+    row-gap: 35px;
+    grid-auto-rows: 292px;
+    padding-bottom: 150px;
+}
+
+.about-title {
+    display: block;
+    margin-top: 135px;
+    font-size: 40px;
+    line-height: 66px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-paragraph {
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 59px;
+}
+
+.about-main-grid-title {
+    font-size: 32px;
+    line-height: 60px;
+    color: #FED233;
+    font-weight: 600;
+}
+
+.about-main-grid-line {
+    max-width: 320px;
+    border: 2px solid #BDBDBD;
+}
+
+.about-main-grid-discr {
+    font-size: 18px;
+    line-height: 34px;
+    color: #828282;
+}
+
+
+/*FORM*/
+
+
+.container-form {
+    background-image: url(../img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+}
+
+.container-form-h2 {
+    font-size: 40px;
+    line-height: 66px;
+    color: #FFFFFF;
+    padding: 110px 0 44px 0;
+}
+
+.container-radio {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+.radio {
+    margin-bottom: 55px;
+}
+
+
+.name {
+    width: 460px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.tel {
+    width: 460px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.container-form-btn {
+    max-width: 266px;
+    height: 59px;
+    background-color: #FED233;
+    border-radius: 7px;
+    background-image: url('../icons/right-arrow-6405.svg');
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 50%;
+    margin-bottom: 100px;
+}
+
+.container-form-btn-title {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    padding: 21px 0 0 15px;
+}
+    
 
