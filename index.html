@@ -15,10 +15,10 @@
                 <a href="@!" class="logo">PRO<span>CODE</span></a>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="@!">Услуги</a></li>
-                        <li class="nav-item"><a href="@!">О нас</a></li>
-                        <li class="nav-item"><a href="@!">Технологии</a></li>
-                        <li class="nav-item"><a href="@!">Контакты</a></li>
+                        <li class="nav-item"><a href="#services">Услуги</a></li>
+                        <li class="nav-item"><a href="#about">О нас</a></li>
+                        <li class="nav-item"><a href="#tehnologic">Технологии</a></li>
+                        <li class="nav-item"><a href="#footer">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -45,7 +45,7 @@
             </div>
             
             <div class="btn">
-                <a href="@!"><span class="btn-title">Свяжитесь с нами</span></a>
+                <a href="#form"><span class="btn-title">Свяжитесь с нами</span></a>
             </div>
 
             <img class="header-bottom-mouse" src="./icons/Vector.png" alt="">
@@ -53,11 +53,12 @@
         </div>
     </header>
 
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <h2 class="services-title">Наша студия предоставляет услуги</h2>
-            <p class="services-descr">Разрабатываем и помогаем развивать онлайн-сервисы, <br>
-                сайты и мобильные приложения.</p>
+            <p class="services-descr">Разрабатываем и помогаем развивать онлайн-сервисы,<br>
+                сайты и мобильные приложения.
+            </p>
         </div>
 
         <div class="services-grid">
@@ -111,7 +112,7 @@
 
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <h2 class="about-title">О студии</h2>
             <p class="about-paragraph">
@@ -144,7 +145,7 @@
         </div>
     </div>
 
-    <div class="form">
+    <div class="form" id="form">
         <div class="container">
             <h2 class="container-form-h2">Заполните форму, и мы свяжемся с вами</h2>
             <form action="/action_page.php">
@@ -154,7 +155,7 @@
                 <label for="radio"><span class="container-radio">Я согласен предоставить свои персональные данные.</span></label>
             </form>
         
-            <div class="container-form-btn">
+            <div class="container-form-btn" id="container-form-btn">
                 <a href="@!"><span class="container-form-btn-title">
                     Отправить
                 </span></a>
@@ -162,7 +163,7 @@
         </div>
     </div>
 
-    <div class="tehnologic">
+    <div class="tehnologic" id="tehnologic">
         <div class="container">
             <div class="tehnologic-title">Технологии, которые мы используем</div>
             <div class="tehnologic-descr">Разрабатываем и помогаем развивать онлайн-сервисы, 
@@ -226,22 +227,28 @@
         </div>
     </div>
     
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-main">
                 <div class="footer-top-line"></div>
-                <div class="footer-title">Давайте работать вместе <img class="footer-hand-shake-img" src="./icons/hand-shake.png" alt=""> </div>
+                <div class="footer-title">
+                    Давайте работать вместе 
+                    <img class="footer-hand-shake-img" src="./icons/hand-shake.png" alt=""> 
+                </div>
                 <div class="footer-form-btn">
-                    <a href="@!"><span class="footer-form-btn-title">
+                    <a href="#form"><span class="footer-form-btn-title">
                         Отправить заявку
                     </span></a>
                 </div>
                 <a class="footer-email" href="mailto: abc@example.com">work@procode.ua</a>
                 <a class="footer-tel" href="tel:+4733378901">+3 800 320 00 60</a>
-                <div class="footer-bottom-line"></div>
+            </div>
+        </div>
+    <div class="footer-bottom-line"></div>
+        <div class="container">        
                 <div class="footer-bottom">
                     <a class="footer-bottom-item" href="">(с)PROCODE</a>
-                    <a class="footer-bottom-item" href="">Наш телеграм</a>
+                    <a class="footer-bottom-item" href="https://web.telegram.org/" target="_blank">Наш телеграм</a>
                 </div>
             </div>
         </div>
