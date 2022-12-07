@@ -541,3 +541,146 @@ body {
         margin-bottom: 124px ;
     }
 }
+
+@media  screen and (max-width: 900px) {
+    .header-row-logo {
+        display: none;
+    }
+
+    .header-row {
+        padding-top: 120px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .header-descr {
+        font-size: 16px;
+    }
+
+    .services {
+        padding-bottom: 35px;
+    }
+
+    .services-title {
+        font-size: 30px;
+        padding-top: 34px;
+    }
+
+    .services-descr {
+        font-size: 16px;
+        padding: 14px 0 57px 0;
+    }
+
+    .about-title {
+        margin-top: 35px;
+        font-size: 30px;
+    }
+    
+    .about-paragraph {
+        font-size: 16px;
+        margin-bottom: 49px;
+    }
+
+    .about {
+        background-color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .about-main-grid-title {
+        font-size: 26px;
+    }
+    
+    .about-main-grid-line {
+        max-width: 280px;
+        border: 1px solid #BDBDBD;
+    }
+    
+    .about-main-grid-discr {
+        font-size: 16px;
+        line-height: 28px;
+        color: #828282;
+    }
+
+    .container-form-h2 {
+        font-size: 30px;
+        padding: 70px 0 44px 0;
+    }
+
+    .tehnologic-title {
+        font-size: 26px;
+        padding-top: 50px;
+    }
+    
+    .tehnologic-container-grid {
+        margin-top: 57px;
+        grid-template-columns: repeat(2, minmax(280px, 320px));
+        grid-template-rows: repeat(3, minmax(110px, 142px));
+        column-gap: 54px;
+        row-gap: 59px;
+        margin-bottom: 94px ;
+    }
+
+    .tehnologic-main-grid-title {
+        font-size: 26px;
+    }
+    
+    .tehnologic-main-grid-line {
+        max-width: 280px;
+        border: 1px solid #BDBDBD;
+    }
+    
+    .tehnologic-main-grid-discr {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+}
+
+@media  screen and (max-width: 755px) {
+    .nav-list {
+        display: none;
+    }
+
+    .services-grid-container {
+        grid-template-columns: repeat(1, minmax(300px, 387px));
+        grid-template-rows: repeat(2, minmax(200px, 292px));
+        justify-content: center;
+        row-gap: 35px;
+    }
+
+    .about-container-grid {
+        grid-template-columns: repeat(1, minmax(280px, 320px));
+        grid-template-rows: repeat(3, minmax(80px, 115px));
+        justify-content: center;
+    }
+    
+    .name, .tel {
+        width: 260px;
+    }
+    
+    .tehnologic-container-grid {
+        margin-top: 57px;
+        grid-template-columns: repeat(1, minmax(280px, 320px));
+        grid-template-rows: repeat(6, minmax(110px, 142px));
+        row-gap: 30px;
+        grid-auto-rows: 292px;
+        margin-bottom: 124px ;
+        justify-content: center;
+    }
+
+    .tehnologic-title {
+        font-size: 30px;
+        line-height: 46px;
+        color: #333333;
+        padding-top: 70px;
+    }
+    
+    .tehnologic-descr {
+        font-size: 16px;
+        line-height: 35px;
+        color: #333333;
+        padding-top: 14px;
+    }
+}
